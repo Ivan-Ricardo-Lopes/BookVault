@@ -1,0 +1,6 @@
+@BallastLane.BookVault.Api_HostAddress = http://localhost:5147
+
+GET {{BallastLane.BookVault.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.BookVault.Api", "BallastLane.BookVault.Api\BallastLane.BookVault.Api.csproj", "{1CE980C4-E9C3-488E-8E29-B4106DC9424D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D17BDBF-DBE8-4620-95B3-C278DC6F98AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{56566779-8CBB-4868-8532-78C442DB367D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.BookVault.Application", "BallastLane.BookVault.Application\BallastLane.BookVault.Application.csproj", "{62792E65-8984-41C4-B6FA-4B67F87FE960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.BookVault.Infrastructure", "BallastLane.BookVault.Infrastructure\BallastLane.BookVault.Infrastructure.csproj", "{D21898E1-36E6-4535-AAF0-4E1196B3B92E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.BookVault.Domain", "BallastLane.BookVault.Domain\BallastLane.BookVault.Domain.csproj", "{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.BookVault.Tests", "BallastLane.BookVault.Tests\BallastLane.BookVault.Tests.csproj", "{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{27BA0B3A-4EC7-44F7-8BF9-1C8DB4DDA70A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE980C4-E9C3-488E-8E29-B4106DC9424D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE980C4-E9C3-488E-8E29-B4106DC9424D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE980C4-E9C3-488E-8E29-B4106DC9424D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE980C4-E9C3-488E-8E29-B4106DC9424D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62792E65-8984-41C4-B6FA-4B67F87FE960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62792E65-8984-41C4-B6FA-4B67F87FE960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62792E65-8984-41C4-B6FA-4B67F87FE960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62792E65-8984-41C4-B6FA-4B67F87FE960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21898E1-36E6-4535-AAF0-4E1196B3B92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21898E1-36E6-4535-AAF0-4E1196B3B92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21898E1-36E6-4535-AAF0-4E1196B3B92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21898E1-36E6-4535-AAF0-4E1196B3B92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CE980C4-E9C3-488E-8E29-B4106DC9424D} = {6D17BDBF-DBE8-4620-95B3-C278DC6F98AF}
+		{62792E65-8984-41C4-B6FA-4B67F87FE960} = {6D17BDBF-DBE8-4620-95B3-C278DC6F98AF}
+		{D21898E1-36E6-4535-AAF0-4E1196B3B92E} = {6D17BDBF-DBE8-4620-95B3-C278DC6F98AF}
+		{8CB075BA-6A5A-4BE1-A6EA-6EECEB9C3EFB} = {6D17BDBF-DBE8-4620-95B3-C278DC6F98AF}
+		{AA42C050-6B9F-4E82-8CBC-AA54AC7C0F53} = {56566779-8CBB-4868-8532-78C442DB367D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD3798E4-9852-4E1B-923B-2056CA7148F8}
+	EndGlobalSection
+EndGlobal
